@@ -1,2 +1,58 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    header, nav, section, aside, footer {
+      padding: 20px;
+      margin: 10px;
+      background: #fff;
+      border-radius: 5px;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    aside {
+      background-color: #f9f9f9;
+      font-style: italic;
+    }
+
+    footer {
+      text-align: center;
+      font-weight: bold;
+      background-color: #222;
+      color: #fff;
+    }
